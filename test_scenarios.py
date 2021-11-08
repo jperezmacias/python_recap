@@ -11,3 +11,7 @@ class NameTestCase(unittest.TestCase):
     def test_outside_range(self):
         result = getSum(0,1)
         self.assertEqual(result, -1)
+
+
+if __name__ == '__main__':
+    unittest.main()
