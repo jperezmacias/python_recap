@@ -25,6 +25,7 @@ def getSum(X: int, Y: int) -> int:
         result = X + Y
 
     except Exception as e:
+        result = -1
         print(e)
 
     return result
